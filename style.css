@@ -7,17 +7,25 @@ justify-content:space-evenly;
 height: 120vh;
 border: 2px solid darkkhaki;
 border-radius: 5px;
-background-color: gold;
+background-image: radial-gradient(yellow,green,orange,black,orangered,blue);
 align-items: center;
+
         }
         .box1{
             width: 40vw;
-            height: 110vh;
+            height: 115vh;
             border: 2px solid green;
             background-color:white;
             border-radius: 20px;
-            text-align: center;
-            box-shadow:8px 8px 0 8px;
+              text-align: center;
+            box-shadow:8px 8px 0 8px green;
+          
+        }
+        .box1:hover{
+            transition: 0.3s;
+              text-align: center;
+              text-align: center;
+            box-shadow:8px 8px 0 8px blue;
         }
         .image{
             margin: 0px;
